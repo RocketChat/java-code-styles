@@ -9,7 +9,7 @@ for /D %%i in ("%userprofile%"\.IdeaIC*) do call :copy_config "%%i"
 for /D %%i in ("%userprofile%"\.IntelliJIdea*) do call :copy_config "%%i"
 
 echo.
-echo Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'Square' or 'SquareAndroid'.
+echo Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'Rocket.Chat'.
 exit /b
 
 REM sub function for copy config files
